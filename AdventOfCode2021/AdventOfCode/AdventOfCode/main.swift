@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  AdventOfCode2021
+//  AdventOfCode
 //
-//  Created by Ondřej Pišín on 08.12.2021.
+//  Created by Ondrej Pisin on 11.12.21.
 //
 
 import Foundation

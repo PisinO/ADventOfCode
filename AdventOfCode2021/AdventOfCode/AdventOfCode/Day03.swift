@@ -18,7 +18,6 @@ class Day03: Executable {
         var val = ""
         for i in 0..<chunks[0].count {
             val.append(chunks.map({ ($0 as NSString).character(at: i) }).sorted().firstIndex(of: 49)! >= chunks.count/2 ? "0" : "1")
-            print(chunks.map({ ($0 as NSString).character(at: i) }).sorted().firstIndex(of: 49)!)
         }
         print("P1: \(Int(val, radix: 2)! * Int(String(val.map({ $0 == "0" ? "1" : "0" })), radix: 2)!)")
     }
