@@ -14,6 +14,8 @@
 		DD7B822D2764736A00B8FB4B /* input02.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD7B82252764735B00B8FB4B /* input02.txt */; };
 		DD7B822E2764736A00B8FB4B /* input03.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD7B82262764735B00B8FB4B /* input03.txt */; };
 		DD7B822F2764736A00B8FB4B /* input01.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD7B82272764735B00B8FB4B /* input01.txt */; };
+		DD9F63122765FC69003B5616 /* Day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F63112765FC69003B5616 /* Day04.swift */; };
+		DD9F63142765FD95003B5616 /* input04.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD9F63132765FD8F003B5616 /* input04.txt */; };
 		DDE63D3F276471FD00DA8818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE63D3E276471FD00DA8818 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				DD9F63142765FD95003B5616 /* input04.txt in CopyFiles */,
 				DD7B822D2764736A00B8FB4B /* input02.txt in CopyFiles */,
 				DD7B822E2764736A00B8FB4B /* input03.txt in CopyFiles */,
 				DD7B822F2764736A00B8FB4B /* input01.txt in CopyFiles */,
@@ -49,6 +52,8 @@
 		DD7B82252764735B00B8FB4B /* input02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input02.txt; sourceTree = "<group>"; };
 		DD7B82262764735B00B8FB4B /* input03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input03.txt; sourceTree = "<group>"; };
 		DD7B82272764735B00B8FB4B /* input01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input01.txt; sourceTree = "<group>"; };
+		DD9F63112765FC69003B5616 /* Day04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day04.swift; sourceTree = "<group>"; };
+		DD9F63132765FD8F003B5616 /* input04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input04.txt; sourceTree = "<group>"; };
 		DDE63D3B276471FD00DA8818 /* AdventOfCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE63D3E276471FD00DA8818 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +72,7 @@
 		DD7B82242764735B00B8FB4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DD9F63132765FD8F003B5616 /* input04.txt */,
 				DD7B82252764735B00B8FB4B /* input02.txt */,
 				DD7B82262764735B00B8FB4B /* input03.txt */,
 				DD7B82272764735B00B8FB4B /* input01.txt */,
@@ -94,12 +100,13 @@
 		DDE63D3D276471FD00DA8818 /* AdventOfCode */ = {
 			isa = PBXGroup;
 			children = (
+				DD7B82242764735B00B8FB4B /* Resources */,
 				DD7B82222764735A00B8FB4B /* Day01.swift */,
 				DD7B82232764735A00B8FB4B /* Day02.swift */,
 				DD7B82212764735A00B8FB4B /* Day03.swift */,
-				DD7B82242764735B00B8FB4B /* Resources */,
 				DD7B82202764735A00B8FB4B /* Support.swift */,
 				DDE63D3E276471FD00DA8818 /* main.swift */,
+				DD9F63112765FC69003B5616 /* Day04.swift */,
 			);
 			path = AdventOfCode;
 			sourceTree = "<group>";
@@ -164,6 +171,7 @@
 			files = (
 				DDE63D3F276471FD00DA8818 /* main.swift in Sources */,
 				DD7B822A2764735B00B8FB4B /* Day01.swift in Sources */,
+				DD9F63122765FC69003B5616 /* Day04.swift in Sources */,
 				DD7B822B2764735B00B8FB4B /* Day02.swift in Sources */,
 				DD7B82282764735B00B8FB4B /* Support.swift in Sources */,
 				DD7B82292764735B00B8FB4B /* Day03.swift in Sources */,
